@@ -144,13 +144,22 @@ html {
   width: 100%;
   overflow: hidden;
 }
-
+@media (max-width: 540px) {
+    .nav-link{
+        padding: 0;
+    }
+}
 @media (max-width: 600px) {
     .mt-5{
         margin-top: 10rem!important;
     }
 }
-
+@media (max-width: 768px) {
+    .testimonial-author{
+        display: block;
+        margin: 0 auto;
+    }
+}
 .advantages-outer .span-features {
   text-transform: uppercase;
   font-size: 42px;
@@ -683,7 +692,7 @@ html {
   }
 
   .footer-outer .footer-nav ul li {
-    margin: 0 10px;
+    margin: 0 7px;
   }
 
   .footer-outer .social-icons-footer i {
@@ -932,6 +941,10 @@ html {
     display: block;
     margin-top: 100px;
   }
+}
+.nav-link{
+    display: block;
+    padding: 0.5rem 0rem;
 }
 @media screen and (max-width: 520px) {
   # hero-wrapper {
