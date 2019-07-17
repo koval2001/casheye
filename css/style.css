@@ -553,6 +553,7 @@ html {
   -o-transition: color .2s ease;
   transition: color .2s ease;
 }
+
 .footer-outer .footer-nav ul {
   list-style: none;
   text-align: center;
@@ -628,6 +629,7 @@ html {
     height: 550px;
   }
 }
+
 @media screen and (max-width: 993px) {
   body {
     overflow-x: hidden;
@@ -692,7 +694,7 @@ html {
   }
 
   .footer-outer .footer-nav ul li {
-    margin: 0 7px;
+    margin: 0 5px;
   }
 
   .footer-outer .social-icons-footer i {
